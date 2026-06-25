@@ -233,10 +233,8 @@ paper2prototype/
 
 ## Repository
 
-> _Update with your GitHub URL after pushing._
-
-<!-- Replace with your repo URL:
-🔗 [github.com/your-username/paper2prototype](https://github.com/your-username/paper2prototype)
+<
+🔗 [[github.com/your-username/paper2prototype](https://github.com/joshuatsou123/paper2prototype.git)]
 -->
 
 ---
