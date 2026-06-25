@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model PaperResult {
+  id                      String   @id @default(cuid())
+  title                   String
+  originalFileName        String
+  extractedTextPreview    String
+  mainProblem             String
+  summary                 String
+  keyContribution         String
+  architecture            String
+  datasetRequirements     String
+  preprocessingSteps      String
+  trainingProcedure       String
+  lossFunction            String
+  evaluationMetrics       String
+  implementationChecklist String   // JSON array stored as string
+  starterCode             String
+  missingDetails          String   // JSON array stored as string
+  difficultyScore         String
+  reasonForDifficulty     String
+  createdAt               DateTime @default(now())
+}

@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Production build
+build/
+dist/
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+prisma/dev.db
+prisma/dev.db-journal
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (in case of notebooks or scripts)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+*.log
+.vercel
